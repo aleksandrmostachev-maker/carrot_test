@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportTuning - Тюнинг Ателье Спортивных Автомобилей</title>
+    <meta name="description" content="Профессиональный тюнинг, детейлинг и ремонт спортивных автомобилей. Чип-тюнинг, установка оборудования, качественное обслуживание.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="logo">
+                        <span class="logo__text">Sport<span class="logo__accent">Tuning</span></span>
+                    </div>
+                    <ul class="nav__menu" id="navMenu">
+                        <li><a href="index.html" class="nav__link active">Главная</a></li>
+                        <li><a href="services.html" class="nav__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                        <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                    <div class="nav__toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__background">
+            <div class="hero__overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Профессиональный<br>
+                    <span class="hero__accent">Тюнинг</span> Спортивных Авто
+                </h1>
+                <p class="hero__subtitle">
+                    Детейлинг, чип-тюнинг, установка оборудования и ремонт.<br>
+                    Превращаем стандартные автомобили в произведения искусства.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#consultation" class="btn btn--primary">Получить консультацию</a>
+                    <a href="portfolio.html" class="btn btn--secondary">Наши работы</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2 class="section__title">О нашем ателье</h2>
+                    <p class="about__description">
+                        <strong>SportTuning</strong> — это команда профессионалов с более чем 10-летним опытом в сфере автотюнинга. 
+                        Мы специализируемся на работе со спортивными автомобилями премиум-класса.
+                    </p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <div class="feature__icon">🏆</div>
+                            <div>
+                                <h3>Опыт 10+ лет</h3>
+                                <p>Работали с сотнями автомобилей</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">🔧</div>
+                            <div>
+                                <h3>Профессиональное оборудование</h3>
+                                <p>Только современные инструменты</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">⚡</div>
+                            <div>
+                                <h3>Гарантия качества</h3>
+                                <p>12 месяцев гарантии на все работы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <div class="about__image-placeholder">
+                        <span>🏎️ Фото мастерской</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Services -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section__title center">Популярные услуги</h2>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">✨</div>
+                    <h3>Детейлинг</h3>
+                    <p>Полная химчистка, полировка кузова, защитные покрытия</p>
+                    <div class="service-card__price">от 8,000₽</div>
+                    <a href="services.html#detailing" class="btn btn--outline">Подробнее</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">⚡</div>
+                    <h3>Чип-тюнинг</h3>
+                    <p>Увеличение мощности, оптимизация расхода топлива</p>
+                    <div class="service-card__price">от 25,000₽</div>
+                    <a href="services.html#chiptuning" class="btn btn--outline">Подробнее</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">🔧</div>
+                    <h3>Установка оборудования</h3>
+                    <p>Выхлопные системы, подвеска, тормозная система</p>
+                    <div class="service-card__price">от 15,000₽</div>
+                    <a href="services.html#equipment" class="btn btn--outline">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="consultation" id="consultation">
+        <div class="container">
+            <div class="consultation__content">
+                <h2>Получите бесплатную консультацию</h2>
+                <p>Обсудим ваш проект, подберем оптимальное решение и рассчитаем стоимость работ</p>
+                <div class="consultation__contact">
+                    <div class="contact-item">
+                        <span class="contact-item__label">Телефон:</span>
+                        <a href="tel:+79261234567" class="contact-item__value">+7 (926) 123-45-67</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__label">WhatsApp:</span>
+                        <a href="https://wa.me/79261234567" class="contact-item__value">+7 (926) 123-45-67</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__label">Режим работы:</span>
+                        <span class="contact-item__value">Пн-Пт: 9:00-20:00, Сб: 10:00-18:00</span>
+                    </div>
+                </div>
+                <a href="contacts.html" class="btn btn--primary">Связаться с нами</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <span class="logo__text">Sport<span class="logo__accent">Tuning</span></span>
+                    </div>
+                    <p>Профессиональный тюнинг спортивных автомобилей с 2014 года</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Услуги</h3>
+                    <ul class="footer__links">
+                        <li><a href="services.html#detailing">Детейлинг</a></li>
+                        <li><a href="services.html#chiptuning">Чип-тюнинг</a></li>
+                        <li><a href="services.html#equipment">Оборудование</a></li>
+                        <li><a href="services.html#repair">Ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li>📍 г. Москва, ул. Автомобильная, 15</li>
+                        <li>📞 +7 (926) 123-45-67</li>
+                        <li>✉️ info@sporttuning.ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 SportTuning. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

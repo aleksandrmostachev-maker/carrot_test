@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - SportTuning | Свяжитесь с нами</title>
+    <meta name="description" content="Контакты SportTuning: адрес мастерской в Москве, телефон +7 (926) 123-45-67, email info@sporttuning.ru. Работаем Пн-Пт 9:00-20:00, Сб 10:00-18:00.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="logo">
+                        <a href="index.html" class="logo__text">Sport<span class="logo__accent">Tuning</span></a>
+                    </div>
+                    <ul class="nav__menu" id="navMenu">
+                        <li><a href="index.html" class="nav__link">Главная</a></li>
+                        <li><a href="services.html" class="nav__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                        <li><a href="contacts.html" class="nav__link active">Контакты</a></li>
+                    </ul>
+                    <div class="nav__toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title">Контакты</h1>
+                <p class="page-hero__subtitle">Свяжитесь с нами для консультации или записи на обслуживание</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Записаться на консультацию</h2>
+                    <p class="contact-form-description">
+                        Заполните форму ниже, и мы свяжемся с вами в ближайшее время для обсуждения вашего проекта
+                    </p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Введите ваше имя" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 (926) 123-45-67" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="example@gmail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="car">Автомобиль</label>
+                            <input type="text" id="car" name="car" class="form-control" placeholder="BMW M3, Mercedes C63, etc.">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Интересующая услуга</label>
+                            <select id="service" name="service" class="form-control">
+                                <option value="">Выберите услугу</option>
+                                <option value="detailing">Детейлинг</option>
+                                <option value="chiptuning">Чип-тюнинг</option>
+                                <option value="equipment">Установка оборудования</option>
+                                <option value="repair">Ремонт и ТО</option>
+                                <option value="consultation">Консультация</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Расскажите подробнее о вашем проекте..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary">Отправить заявку</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2>Как нас найти</h2>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📍</div>
+                            <div class="contact-info-content">
+                                <h3>Адрес мастерской</h3>
+                                <p>г. Москва, ул. Автомобильная, 15<br>
+                                Метро: Автозаводская (5 мин пешком)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📞</div>
+                            <div class="contact-info-content">
+                                <h3>Телефон</h3>
+                                <p>
+                                    <a href="tel:+79261234567">+7 (926) 123-45-67</a><br>
+                                    <a href="https://wa.me/79261234567">WhatsApp / Telegram</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">✉️</div>
+                            <div class="contact-info-content">
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="mailto:info@sporttuning.ru">info@sporttuning.ru</a><br>
+                                    Отвечаем в течение 1 часа
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">⏰</div>
+                            <div class="contact-info-content">
+                                <h3>Режим работы</h3>
+                                <p>
+                                    Пн-Пт: 9:00 - 20:00<br>
+                                    Сб: 10:00 - 18:00<br>
+                                    Вс: выходной
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">💳</div>
+                            <div class="contact-info-content">
+                                <h3>Способы оплаты</h3>
+                                <p>
+                                    Наличные, банковские карты<br>
+                                    Безналичный расчет для юр. лиц
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🚗</div>
+                            <div class="contact-info-content">
+                                <h3>Парковка</h3>
+                                <p>
+                                    Бесплатная охраняемая парковка<br>
+                                    Места для 20+ автомобилей
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section__title center">Расположение мастерской</h2>
+            <div class="map-container">
+                🗺️ Интерактивная карта<br>
+                <small>г. Москва, ул. Автомобильная, 15</small>
+            </div>
+            <div class="map-description">
+                <p><strong>Как добраться:</strong></p>
+                <ul>
+                    <li><strong>На метро:</strong> станция "Автозаводская", выход к ТЦ "Ривьера", 5 минут пешком</li>
+                    <li><strong>На автомобиле:</strong> въезд с ул. Автомобильная, есть указатели "SportTuning"</li>
+                    <li><strong>На общественном транспорте:</strong> автобусы 142, 263 до остановки "Автомобильная улица"</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section__title center">Часто задаваемые вопросы</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Сколько времени занимает чип-тюнинг?</h3>
+                    <p>Базовый Stage 1 тюнинг занимает 2-3 часа. Stage 2 с дополнительной настройкой — 4-6 часов. Все зависит от сложности проекта.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Даете ли вы гарантию на работы?</h3>
+                    <p>Да, мы предоставляем гарантию: на чип-тюнинг — 12 месяцев, на детейлинг — 6 месяцев, на установку оборудования — 12 месяцев.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Можно ли записаться на выходные?</h3>
+                    <p>По субботам мы работаем до 18:00. В воскресенье — выходной, но можем договориться об индивидуальном приеме за отдельную плату.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Работаете ли с автомобилями на гарантии?</h3>
+                    <p>Да, но нужно понимать риски. Чип-тюнинг может повлиять на гарантию дилера. Детейлинг и некоторое оборудование — безопасны.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Есть ли у вас рассрочка?</h3>
+                    <p>Для крупных проектов (от 100,000₽) возможна рассрочка на 6-12 месяцев. Обсуждается индивидуально.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Какие марки автомобилей обслуживаете?</h3>
+                    <p>Специализируемся на премиум и спорт-сегменте: BMW, Mercedes, Audi, Porsche, Lamborghini, Ferrari, McLaren, Nissan GT-R и другие.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-section">
+        <div class="container">
+            <div class="emergency-content">
+                <h2>Экстренная связь</h2>
+                <p>Если ваш автомобиль сломался после наших работ или нужна срочная помощь</p>
+                <div class="emergency-contacts">
+                    <a href="tel:+79261234567" class="emergency-btn">
+                        📞 Экстренный номер<br>
+                        <span>+7 (926) 123-45-67</span>
+                    </a>
+                    <a href="https://wa.me/79261234567" class="emergency-btn">
+                        💬 WhatsApp<br>
+                        <span>Круглосуточно</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <span class="logo__text">Sport<span class="logo__accent">Tuning</span></span>
+                    </div>
+                    <p>Профессиональный тюнинг спортивных автомобилей с 2014 года</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Услуги</h3>
+                    <ul class="footer__links">
+                        <li><a href="services.html#detailing">Детейлинг</a></li>
+                        <li><a href="services.html#chiptuning">Чип-тюнинг</a></li>
+                        <li><a href="services.html#equipment">Оборудование</a></li>
+                        <li><a href="services.html#repair">Ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li>📍 г. Москва, ул. Автомобильная, 15</li>
+                        <li>📞 +7 (926) 123-45-67</li>
+                        <li>✉️ info@sporttuning.ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 SportTuning. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

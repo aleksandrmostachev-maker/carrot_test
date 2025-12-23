@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - SportTuning | Примеры наших работ</title>
+    <meta name="description" content="Портфолио работ SportTuning: примеры детейлинга, чип-тюнинга и установки оборудования на BMW, Mercedes, Audi и другие спортивные автомобили.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="logo">
+                        <a href="index.html" class="logo__text">Sport<span class="logo__accent">Tuning</span></a>
+                    </div>
+                    <ul class="nav__menu" id="navMenu">
+                        <li><a href="index.html" class="nav__link">Главная</a></li>
+                        <li><a href="services.html" class="nav__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="nav__link active">Портфолио</a></li>
+                        <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                    <div class="nav__toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title">Наши работы</h1>
+                <p class="page-hero__subtitle">Примеры успешно выполненных проектов по тюнингу спортивных автомобилей</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="detailing">Детейлинг</button>
+                <button class="filter-btn" data-filter="chiptuning">Чип-тюнинг</button>
+                <button class="filter-btn" data-filter="equipment">Оборудование</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- BMW M3 Project -->
+                <div class="portfolio-item" data-category="chiptuning equipment">
+                    <div class="portfolio-image">🏎️</div>
+                    <div class="portfolio-content">
+                        <h3>Комплексный тюнинг</h3>
+                        <div class="car-model">BMW M3 F80 2018</div>
+                        <p>Stage 2 чип-тюнинг + выхлопная система Akrapovic + карбоновый впуск. Мощность увеличена с 431 до 520 л.с.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Чип-тюнинг</span>
+                            <span class="portfolio-tag">Выхлоп</span>
+                            <span class="portfolio-tag">Впуск</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mercedes Project -->
+                <div class="portfolio-item" data-category="detailing">
+                    <div class="portfolio-image">✨</div>
+                    <div class="portfolio-content">
+                        <h3>Премиум детейлинг</h3>
+                        <div class="car-model">Mercedes-AMG C63S 2020</div>
+                        <p>Полная химчистка салона, полировка кузова и нанесение керамического покрытия. Автомобиль выглядит как новый.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Керамика</span>
+                            <span class="portfolio-tag">Полировка</span>
+                            <span class="portfolio-tag">Химчистка</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Audi Project -->
+                <div class="portfolio-item" data-category="equipment">
+                    <div class="portfolio-image">🔧</div>
+                    <div class="portfolio-content">
+                        <h3>Тормозная система</h3>
+                        <div class="car-model">Audi RS6 2019</div>
+                        <p>Установка тормозной системы Brembo GT 6-поршневые суппорты с 380мм дисками. Идеально для трека.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Тормоза</span>
+                            <span class="portfolio-tag">Brembo</span>
+                            <span class="portfolio-tag">Трек</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Porsche Project -->
+                <div class="portfolio-item" data-category="chiptuning">
+                    <div class="portfolio-image">⚡</div>
+                    <div class="portfolio-content">
+                        <h3>Stage 1 тюнинг</h3>
+                        <div class="car-model">Porsche 911 Turbo S 2021</div>
+                        <p>Программная оптимизация без изменения железа. Прирост мощности 60 л.с., улучшенная тяга на низах.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Stage 1</span>
+                            <span class="portfolio-tag">ECU</span>
+                            <span class="portfolio-tag">+60HP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- McLaren Project -->
+                <div class="portfolio-item" data-category="detailing equipment">
+                    <div class="portfolio-image">💎</div>
+                    <div class="portfolio-content">
+                        <h3>Суперкар-проект</h3>
+                        <div class="car-model">McLaren 720S 2020</div>
+                        <p>PPF пленка на весь кузов + керамическое покрытие поверх пленки. Максимальная защита лакокрасочного покрытия.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">PPF</span>
+                            <span class="portfolio-tag">Керамика</span>
+                            <span class="portfolio-tag">Премиум</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nissan GTR Project -->
+                <div class="portfolio-item" data-category="equipment chiptuning">
+                    <div class="portfolio-image">🚀</div>
+                    <div class="portfolio-content">
+                        <h3>1000+ сил</h3>
+                        <div class="car-model">Nissan GT-R R35 2017</div>
+                        <p>Форсированный мотор + турбины Garrett + интеркулер + чип-тюнинг. Результат: 1050 л.с. на колесах.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Форсаж</span>
+                            <span class="portfolio-tag">Турбо</span>
+                            <span class="portfolio-tag">1000HP+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lamborghini Project -->
+                <div class="portfolio-item" data-category="equipment">
+                    <div class="portfolio-image">🎵</div>
+                    <div class="portfolio-content">
+                        <h3>Спортивный выхлоп</h3>
+                        <div class="car-model">Lamborghini Huracán 2019</div>
+                        <p>Выхлопная система Capristo с титановыми трубами. Невероятный звук V10 + снижение веса на 12 кг.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Capristo</span>
+                            <span class="portfolio-tag">Титан</span>
+                            <span class="portfolio-tag">V10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferrari Project -->
+                <div class="portfolio-item" data-category="detailing">
+                    <div class="portfolio-image">🔴</div>
+                    <div class="portfolio-content">
+                        <h3>Восстановление ЛКП</h3>
+                        <div class="car-model">Ferrari 488 GTB 2018</div>
+                        <p>Удаление глубоких царапин, полировка до зеркального блеска, защитное покрытие. Как с завода!</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Коррекция</span>
+                            <span class="portfolio-tag">Полировка</span>
+                            <span class="portfolio-tag">Ferrari</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bentley Project -->
+                <div class="portfolio-item" data-category="equipment">
+                    <div class="portfolio-image">🏆</div>
+                    <div class="portfolio-content">
+                        <h3>Подвеска KW</h3>
+                        <div class="car-model">Bentley Continental GT 2020</div>
+                        <p>Установка регулируемых койловеров KW V3. Улучшенная управляемость при сохранении комфорта.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">KW V3</span>
+                            <span class="portfolio-tag">Подвеска</span>
+                            <span class="portfolio-tag">Люкс</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section__title center">Наши достижения</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Проектов завершено</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Лет опыта</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Марок автомобилей</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Довольных клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section__title center">Отзывы клиентов</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Отличная работа по чип-тюнингу моего BMW M3. Машина стала намного динамичнее, а расход даже снизился. Рекомендую!"</p>
+                    <div class="testimonial-author">
+                        <strong>Александр К.</strong>
+                        <span>BMW M3 F80</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Профессиональный детейлинг Mercedes. Результат превзошел все ожидания. Автомобиль выглядит лучше нового!"</p>
+                    <div class="testimonial-author">
+                        <strong>Михаил П.</strong>
+                        <span>Mercedes-AMG C63</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Установили выхлоп на Porsche 911. Звук просто фантастический! Работа выполнена идеально, сроки соблюдены."</p>
+                    <div class="testimonial-author">
+                        <strong>Дмитрий В.</strong>
+                        <span>Porsche 911 Turbo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Хотите так же?</h2>
+                <p>Обсудим ваш проект и реализуем автомобиль вашей мечты</p>
+                <div class="cta-buttons">
+                    <a href="contacts.html" class="btn btn--primary">Обсудить проект</a>
+                    <a href="services.html" class="btn btn--secondary">Посмотреть услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <span class="logo__text">Sport<span class="logo__accent">Tuning</span></span>
+                    </div>
+                    <p>Профессиональный тюнинг спортивных автомобилей с 2014 года</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Услуги</h3>
+                    <ul class="footer__links">
+                        <li><a href="services.html#detailing">Детейлинг</a></li>
+                        <li><a href="services.html#chiptuning">Чип-тюнинг</a></li>
+                        <li><a href="services.html#equipment">Оборудование</a></li>
+                        <li><a href="services.html#repair">Ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li>📍 г. Москва, ул. Автомобильная, 15</li>
+                        <li>📞 +7 (926) 123-45-67</li>
+                        <li>✉️ info@sporttuning.ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 SportTuning. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Portfolio Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filter = this.getAttribute('data-filter');
+
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all') {
+                            item.style.display = 'block';
+                        } else {
+                            const categories = item.getAttribute('data-category');
+                            if (categories && categories.includes(filter)) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
