@@ -759,6 +759,30 @@ h1, h2, h3, h4 {
 }
 
 /* Portfolio Gradient Backgrounds */
+.bmw-gradient {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6600 100%) !important;
+}
+
+.mercedes-gradient {
+    background: linear-gradient(135deg, #c0392b 0%, #8e44ad 50%, #1a1a1a 100%) !important;
+}
+
+.audi-gradient {
+    background: linear-gradient(135deg, #333333 0%, #ff6600 50%, #1a1a1a 100%) !important;
+}
+
+.lamborghini-gradient {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 50%, #1a1a1a 100%) !important;
+}
+
+.lamborghini2-gradient {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 50%, #1a1a1a 100%) !important;
+}
+
+.gtr-gradient {
+    background: linear-gradient(135deg, #34495e 0%, #2c3e50 50%, #ff6600 100%) !important;
+}
+
 .porsche-gradient {
     background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 50%, #ff6600 100%) !important;
 }
